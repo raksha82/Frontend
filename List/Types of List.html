@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <Style>
+        .First{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+        }
+
+        #topic{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 45px;
+            color:rgb(58, 204, 50);
+        }
+
+        #o{
+            color: brown;
+        }
+        #u{
+            color:darkgreen;
+        }
+        #d{
+            color: cornflowerblue;
+        }
+        .Order{
+            width: 30%;
+            height: 300px;
+            border: solid 4px red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .Unorder{
+             width: 30%;
+            border: solid 4px red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .Des{
+             width: 30%;
+            border: solid 4px red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    </Style>
+</head>
+<body>
+    <h1 id="topic">Types of List</h1>
+
+    <div class="First">
+    <div class="Order">
+    <h2 id="o">Ordered List</h2>
+    <h3>Fruits</h3>
+    <ol type="I">
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>BlueBerry</li>
+    </ol>
+    </div>
+    <div class="Unorder">
+        <h2 id="u">Unordered List</h2>
+        <h3>Apps</h3>
+        <ul>
+            <li>Instagram</li>
+            <li>Whatsapp</li>
+            <li>Youtube</li>
+        </ul>
+    </div>
+    <div class="Des">
+        <h2 id="d">Descriptive List</h2>
+        <h3>Full Forms</h3>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+        <br>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheet</dd>
+        <br>
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+        <br>
+    </div>
+    </div>
+</body>
+</html>
