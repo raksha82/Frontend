@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            text-align: center ;
+            padding-left: 500px;
+            padding-top: 200px;
+        }
+
+        fieldset{
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <img src="./ros.jpg" width="600px" height="500px" alt="Rose Image">
+
+<form>
+    <label for="username">Username</label>
+    <input id="username" type="text">
+
+    <br>
+    <br>
+    <br>
+    <label>Address</label>
+    <textarea name="address" rows="10" cols="20"></textarea>
+
+
+    <br><br>
+    <fieldset>
+        <legend>List of Courses</legend>
+     <label>Courses</label>
+    <select name="courses" none>
+        <optgroup label="Frontend">
+            <option value="react">React</option>
+            <option value="Angular">Angular</option>
+        </optgroup>
+
+        <optgroup  label="Backend">
+            <option value="Node.js">Node.js</option>
+            <option value="Spring Boot">Spring Boot</option>
+        </optgroup>
+    </select>
+    </fieldset>
+    
+</form>
+</body>
+</html>

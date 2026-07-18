@@ -1,0 +1,41 @@
+table,th,td{
+    border: solid 1px black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table{
+    width: 1300px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+td,th{
+    padding: 8px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(5, 115, 31);
+    text-decoration: underline;
+}
+
+#First{
+    background-color: rgb(199, 60, 130);
+}
+
+#Middle{
+    background-color: rgb(80, 235, 80);
+}
+
+#seminar{
+    background-color: rgb(238, 34, 82);
+}
+
+#lastcolumn{
+    background-color:rgb(221, 65, 224) ;
+}
