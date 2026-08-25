@@ -19,5 +19,17 @@
     padding: 3%;
     border: 2px yellow solid;
     background-color: goldenrod;
+    border-radius: 10px;
 }
 
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.buttons button{
+    width: 23%;
+    padding: 5%;
+    border-radius: 10px;
+}
