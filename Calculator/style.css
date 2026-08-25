@@ -1,3 +1,23 @@
 .heading{
     text-align: center;
+    color: red;
+    font-size: 30px;
+    text-decoration: greenyellow underline;
 }
+
+.calculator{
+    border: 3px solid grey;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    gap:10px;
+}
+
+.input{
+    width: 95%;
+    padding: 3%;
+    border: 2px yellow solid;
+    background-color: goldenrod;
+}
+
