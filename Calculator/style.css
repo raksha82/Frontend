@@ -7,11 +7,12 @@
 
 .calculator{
     border: 3px solid grey;
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     padding: 2%;
     gap:10px;
+    margin-left: 30%;
 }
 
 .input{
