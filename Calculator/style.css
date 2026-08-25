@@ -36,6 +36,7 @@
 }
 
 .button-numbers{
+    border: 2px solid red;
     background-color:crimson;
     color: white;
     font-size: 17px;
