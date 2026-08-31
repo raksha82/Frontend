@@ -14,11 +14,11 @@ else
 {
     if(b>c)
     {
-
+         console.log("B is greater than A and C");
     }
 
     else
     {
-        
+        console.log("C is greater than A and B");
     }
 }
