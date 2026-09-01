@@ -11,3 +11,12 @@ for(let key in Data)
 {
     console.log(key);
 }
+
+
+let animals=["Lion","Tiger","Cat"]
+
+
+for(let index in animals)
+{
+    console.log(index);
+}
