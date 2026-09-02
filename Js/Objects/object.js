@@ -61,3 +61,14 @@ console.log(house);
 
 console.log(house["noofrooms"]);
 console.log(house["type"]);
+
+
+//Modify
+
+let classroom={
+   teacher:"Kavitha",
+   noofStudents:50
+}
+
+classroom.noofStudents=70;
+console.log(classroom);
