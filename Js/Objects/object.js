@@ -86,3 +86,5 @@ let animal={
 }
 
 console.log(animal);
+delete animal.isActive;
+console.log(animal);
