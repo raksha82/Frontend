@@ -39,3 +39,19 @@ let home={
     noofrooms:4,
     location:"Thiruvarur"
 }
+
+console.log(home.NoofMembers);
+console.log(home.location);
+
+
+// Bracket
+
+let house={
+    NoofMembers:4,
+    type:"Independent House",
+    noofrooms:4,
+    location:"Thiruvarur"
+}
+
+console.log(house[noofrooms]);
+console.log(house[type]);
