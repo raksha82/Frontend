@@ -53,5 +53,5 @@ let house={
     location:"Thiruvarur"
 }
 
-console.log(house[noofrooms]);
-console.log(house[type]);
+console.log(house["noofrooms"]);
+console.log(house["type"]);
