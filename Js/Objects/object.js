@@ -53,5 +53,11 @@ let house={
     location:"Thiruvarur"
 }
 
+house.colour="Blue";
+house.floors=2;
+
+console.log(house);
+
+
 console.log(house["noofrooms"]);
 console.log(house["type"]);
