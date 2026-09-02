@@ -18,3 +18,12 @@ let student = {
 };
 
 console.log(student);
+
+
+// Declared and later initialize
+
+let school={};
+console.log(typeof school);
+school.name="Velammal HSS";
+school.student=600;
+console.log(school);
