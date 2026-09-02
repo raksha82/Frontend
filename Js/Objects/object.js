@@ -1,0 +1,9 @@
+// Without Object
+
+let name="Raksha";
+let age=21;
+let location="Chennai";
+
+console.log(name);
+console.log(age);
+console.log(location);
