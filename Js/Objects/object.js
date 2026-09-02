@@ -35,5 +35,7 @@ console.log(school);
 
 let home={
     NoofMembers:4,
-    
+    type:"Independent House",
+    noofrooms:4,
+    location:"Thiruvarur"
 }
