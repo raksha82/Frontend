@@ -70,5 +70,6 @@ let classroom={
    noofStudents:50
 }
 
+console.log(classroom);
 classroom.noofStudents=70;
 console.log(classroom);
