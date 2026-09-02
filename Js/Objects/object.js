@@ -27,3 +27,13 @@ console.log(typeof school);
 school.name="Velammal HSS";
 school.student=600;
 console.log(school);
+
+
+// Accessing
+
+// Dot
+
+let home={
+    NoofMembers:4,
+    
+}
