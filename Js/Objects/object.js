@@ -73,3 +73,16 @@ let classroom={
 console.log(classroom);
 classroom.noofStudents=70;
 console.log(classroom);
+
+
+// Delete
+
+let animal={
+    name:"Tiger",
+    colour:"Orange",
+    gender:"Male",
+    isActive:true,
+    noofsiblings:5
+}
+
+console.log(animal);
