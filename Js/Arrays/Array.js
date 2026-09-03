@@ -30,3 +30,14 @@ console.log(fruits.length);
 let data = ["Raksha", 23, true, 10.5, null];
 
 console.log(data);
+
+
+// Loops
+
+// *for
+
+for(let i=0;i<fruits.length;i++)
+{
+    console.log(fruits[i]);
+}
+
