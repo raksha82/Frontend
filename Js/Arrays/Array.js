@@ -16,3 +16,8 @@ console.log(students);
 console.log(fruits[0]); // Apple
 console.log(fruits[1]); // Mango
 console.log(fruits[2]); // Orange
+
+// Modifying
+
+fruits[3]="Banana";
+console.log(fruits);
