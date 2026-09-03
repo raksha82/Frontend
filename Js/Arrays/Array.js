@@ -41,7 +41,7 @@ for(let i=0;i<fruits.length;i++)
     console.log(i,fruits[i]);
 }
 
-// &for ... of --> loop directly iterates over the values of the array
+// &for ... of --> loop directly iterates over the values of the array , we can't get the index here.
 
 for(let values of fruits)
 {
