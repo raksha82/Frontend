@@ -21,3 +21,5 @@ console.log(fruits[2]); // Orange
 
 fruits[3]="Banana";
 console.log(fruits);
+
+//Length
