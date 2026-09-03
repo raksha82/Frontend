@@ -47,3 +47,10 @@ for(let values of fruits)
 {
     console.log(values);
 }
+
+// Adding element with functions
+
+let zoo=["Lion" , "Tiger" , "Parrot" , "Peacock" , "Monkey"];
+console.log(zoo);
+zoo[zoo.length]="King cobra";
+console.log(zoo);
