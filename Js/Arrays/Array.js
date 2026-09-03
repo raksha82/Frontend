@@ -34,10 +34,12 @@ console.log(data);
 
 // Loops
 
-// *for
+// *for -- > iterates through an array using its index
 
 for(let i=0;i<fruits.length;i++)
 {
     console.log(fruits[i]);
 }
+
+// &for ... of --> loop directly iterates over the values of the array
 
