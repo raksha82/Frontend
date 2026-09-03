@@ -23,3 +23,4 @@ fruits[3]="Banana";
 console.log(fruits);
 
 //Length
+console.log(fruits.length);
