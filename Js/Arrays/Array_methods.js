@@ -73,6 +73,13 @@
 
 
 // find
-let marks = [45, 55, 72, 85,72, 90];
-let result = marks.find();
-console.log(result);
+// let marks = [45, 55, 72, 85, 90];
+// let result = marks.find(marks => marks>70);
+// console.log(result);
+
+
+// sort
+let marks = [55, 45 , 100 , 72 , 85, 22 , 8 ,90];
+marks.sort((a, b) => a - b);
+console.log(marks);
+
