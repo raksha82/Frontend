@@ -24,8 +24,16 @@
 
 
 // shift
+// let Animals=["Ant","Tiger" , "Lion" , "Monkey" ,"Giraffe"];
+// console.log(Animals);
+// let result=Animals.shift();
+// console.log(Animals);
+// console.log(result);
+
+
+// Slice
 let Animals=["Ant","Tiger" , "Lion" , "Monkey" ,"Giraffe"];
 console.log(Animals);
-let result=Animals.shift();
+let result=Animals.slice(0,3);
 console.log(Animals);
 console.log(result);
