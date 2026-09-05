@@ -89,3 +89,5 @@ let marks=[10,20,30,40,50];
 marks.reverse();
 console.log(marks);
 
+
+
