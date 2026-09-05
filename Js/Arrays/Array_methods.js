@@ -2,5 +2,6 @@
 
 let Animals=["Tiger" , "Lion" , "Monkey" ,"Giraffe"];
 console.log(Animals);
-Animals.push("King Cobra");
+let result=Animals.push("King Cobra");
 console.log(Animals);
+console.log(result);
