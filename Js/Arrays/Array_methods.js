@@ -44,3 +44,11 @@ let Animals=["Ant","Tiger" , "Lion" , "Monkey" ,"Giraffe"];
 console.log(Animals);
 Animals.splice(1,0,"Zebra");
 console.log(Animals);
+
+
+// Splice to add multiple elements
+let fruits = ["Apple", "Grapes"];
+
+fruits.splice(1, 0, "Mango", "Orange");
+
+console.log(fruits);
