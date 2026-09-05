@@ -42,6 +42,5 @@
 // Splice add elements
 let Animals=["Ant","Tiger" , "Lion" , "Monkey" ,"Giraffe"];
 console.log(Animals);
-let result=Animals.splice(1,0,"Zebra");
+Animals.splice(1,0,"Zebra");
 console.log(Animals);
-console.log(result);
