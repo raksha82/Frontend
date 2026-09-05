@@ -8,8 +8,16 @@
 
 
 // Pop
+// let Animals=["Tiger" , "Lion" , "Monkey" ,"Giraffe"];
+// console.log(Animals);
+// let result=Animals.pop();
+// console.log(Animals);
+// console.log(result);
+
+
+// Unshift
 let Animals=["Tiger" , "Lion" , "Monkey" ,"Giraffe"];
 console.log(Animals);
-let result=Animals.pop();
+let result=Animals.unshift("Ant");
 console.log(Animals);
 console.log(result);
