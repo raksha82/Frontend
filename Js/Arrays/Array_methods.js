@@ -79,7 +79,13 @@
 
 
 // sort
-let marks = [55, 45 , 100 , 72 , 85, 22 , 8 ,90];
-marks.sort((a, b) => a - b);
+// let marks = [55, 45 , 100 , 72 , 85, 22 , 8 ,90];
+// marks.sort((a, b) => a - b);
+// console.log(marks);
+
+
+// reverse
+let marks=[10,20,30,40,50];
+marks.reverse();
 console.log(marks);
 
