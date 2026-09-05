@@ -32,8 +32,16 @@
 
 
 // Slice
+// let Animals=["Ant","Tiger" , "Lion" , "Monkey" ,"Giraffe"];
+// console.log(Animals);
+// let result=Animals.slice(0,3);
+// console.log(Animals);
+// console.log(result);
+
+
+// Splice add elements
 let Animals=["Ant","Tiger" , "Lion" , "Monkey" ,"Giraffe"];
 console.log(Animals);
-let result=Animals.slice(0,3);
+let result=Animals.splice(1,0,"Zebra");
 console.log(Animals);
 console.log(result);
