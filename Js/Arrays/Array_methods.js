@@ -1,7 +1,15 @@
 // Push
 
+// let Animals=["Tiger" , "Lion" , "Monkey" ,"Giraffe"];
+// console.log(Animals);
+// let result=Animals.push("King Cobra");
+// console.log(Animals);
+// console.log(result);
+
+
+// Pop
 let Animals=["Tiger" , "Lion" , "Monkey" ,"Giraffe"];
 console.log(Animals);
-let result=Animals.push("King Cobra");
+let result=Animals.pop();
 console.log(Animals);
 console.log(result);
