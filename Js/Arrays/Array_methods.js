@@ -47,20 +47,26 @@
 
 
 // Splice to add multiple elements
-let fruits = ["Apple", "Grapes"];
+// let fruits = ["Apple", "Grapes"];
 
-fruits.splice(1, 0, "Mango", "Orange");
+// fruits.splice(1, 0, "Mango", "Orange");
 
-console.log(fruits);
+// console.log(fruits);
 
 // Splice remove elements
-let Animals=["Ant","Tiger" , "Lion" , "Monkey" ,"Giraffe"];
-console.log(Animals);
-Animals.splice(1,2);
-console.log(Animals);
+// let Animals=["Ant","Tiger" , "Lion" , "Monkey" ,"Giraffe"];
+// console.log(Animals);
+// Animals.splice(1,2);
+// console.log(Animals);
 
 // includes
-let languages = ["Java", "Python", "JavaScript"];
+// let languages = ["Java", "Python", "JavaScript"];
 
-console.log(languages.includes("Java"));
-console.log(languages.includes("C++"));
+// console.log(languages.includes("Java"));
+// console.log(languages.includes("C++"));
+
+// indexof
+
+let fruits=["Apple", "Banana" , "Pear" , "Cherry"];
+console.log(fruits.indexOf("Pear"));
+console.log(fruits.indexOf("Blueberry"));
