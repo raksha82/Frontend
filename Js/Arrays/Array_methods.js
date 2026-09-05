@@ -58,3 +58,9 @@ let Animals=["Ant","Tiger" , "Lion" , "Monkey" ,"Giraffe"];
 console.log(Animals);
 Animals.splice(1,2);
 console.log(Animals);
+
+// includes
+let languages = ["Java", "Python", "JavaScript"];
+
+console.log(languages.includes("Java"));
+console.log(languages.includes("C++"));
