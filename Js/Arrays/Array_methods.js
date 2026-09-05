@@ -16,8 +16,16 @@
 
 
 // Unshift
-let Animals=["Tiger" , "Lion" , "Monkey" ,"Giraffe"];
+// let Animals=["Tiger" , "Lion" , "Monkey" ,"Giraffe"];
+// console.log(Animals);
+// let result=Animals.unshift("Ant");
+// console.log(Animals);
+// console.log(result);
+
+
+// shift
+let Animals=["Ant","Tiger" , "Lion" , "Monkey" ,"Giraffe"];
 console.log(Animals);
-let result=Animals.unshift("Ant");
+let result=Animals.shift();
 console.log(Animals);
 console.log(result);
