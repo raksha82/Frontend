@@ -67,6 +67,12 @@
 
 // indexof
 
-let fruits=["Apple", "Banana" , "Pear" , "Cherry"];
-console.log(fruits.indexOf("Pear"));
-console.log(fruits.indexOf("Blueberry"));
+// let fruits=["Apple", "Banana" , "Pear" , "Cherry"];
+// console.log(fruits.indexOf("Pear"));
+// console.log(fruits.indexOf("Blueberry"));
+
+
+// find
+let marks = [45, 55, 72, 85,72, 90];
+let result = marks.find();
+console.log(result);
