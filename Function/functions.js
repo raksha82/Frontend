@@ -7,3 +7,17 @@ function addtwonumber(a,b)
 }
 
 addtwonumber(10,30);
+
+
+// Parameter & Arguments
+
+function greet(name)
+{
+    console.log("Hello " +name);
+}
+
+greet("Raksha");
+
+
+// function greet(name) ---> Parameter
+// greet ("Raksha") ---> Arguments
