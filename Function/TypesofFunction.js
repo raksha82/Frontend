@@ -15,3 +15,12 @@ let greet=function(){
 };
 
 greet();
+
+
+// Arrow Function
+
+const multiply=(a,b)=>{
+    console.log(a*b);
+}
+
+multiply(10,20);
