@@ -41,3 +41,6 @@ function subtract(c,d)
 }
 let result=subtract(100,40);
 console.log(result);
+
+let a=result+200;
+console.log(a);
