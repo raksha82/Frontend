@@ -32,3 +32,7 @@ const add = (a, b) => a + b;
 console.log(add(10, 20));
 
 
+// IIDE
+(function() {
+    console.log("Hello");
+})();
