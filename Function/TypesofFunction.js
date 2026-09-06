@@ -24,3 +24,11 @@ const multiply=(a,b)=>{
 }
 
 multiply(10,20);
+
+// Single-line arrow function
+
+const add = (a, b) => a + b;
+
+console.log(add(10, 20));
+
+
