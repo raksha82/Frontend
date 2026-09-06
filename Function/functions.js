@@ -21,3 +21,13 @@ greet("Raksha");
 
 // function greet(name) ---> Parameter
 // greet ("Raksha") ---> Arguments
+
+
+// function with console.log
+
+function add(a,b)
+{
+    console.log(a+b);
+}
+
+add(40,60);
