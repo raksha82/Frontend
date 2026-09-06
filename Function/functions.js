@@ -31,3 +31,13 @@ function add(a,b)
 }
 
 add(40,60);
+
+
+// Function with return
+
+function subtract(c,d)
+{
+    return c-d;
+}
+let result=subtract(100,40);
+console.log(result);
