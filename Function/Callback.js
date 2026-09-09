@@ -20,13 +20,13 @@
 function add(a,b,callback)
 {
     console.log(a+b);
-    callback(a,b,sub);
+    callback(a,b,multiplication);
 }
 
-function sub(x,y,callback)
+function sub(x,y,multi)
 {
     console.log(x-y);
-    callback(x,y,multiplication)
+    multi(x,y)
 }
 
 function multiplication(a,b)
