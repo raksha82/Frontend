@@ -1,4 +1,5 @@
 // & Let Variable
+console.log(a);
 let a=40;
 console.log(a); //40
 
