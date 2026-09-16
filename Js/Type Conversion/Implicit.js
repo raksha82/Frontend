@@ -26,3 +26,9 @@ console.log(animal+h);  //Dognull
 // null + String = String
 console.log(h+animal);  //nullDog
 
+// Number + null = Number
+console.log(num+h); //10
+ 
+// null +Number = Number
+console.log(h+num); //10
+
