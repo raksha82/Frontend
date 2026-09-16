@@ -32,3 +32,5 @@ console.log(num+h); //10
 // null +Number = Number
 console.log(h+num); //10
 
+// null + Boolean
+console.log(h+isanimal);  //1
