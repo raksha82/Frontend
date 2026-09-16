@@ -18,3 +18,11 @@ console.log(animal+isanimal);
 console.log(isanimal+animal);
 
 
+// String + null = String
+let h=null;
+console.log(animal+h);  //Dognull
+
+
+// null + String = String
+console.log(h+animal);  //nullDog
+
