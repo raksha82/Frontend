@@ -91,12 +91,18 @@
 
 
 // Map
-let a=[10,20,30,40];
-let result=a.map(a=> 
-    {a=a*2
-    console.log(a);
-    return a;
-    });
+// let a=[10,20,30,40];
+// let result=a.map(a=> 
+//     {a=a*2
+//     console.log(a);
+//     return a;
+//     });
+// console.log(result);
+
+
+// Filter
+let b=[45,60,72 , 88 ,70,85];
+let result=b.filter(b=>(b % 5 == 0) );
 console.log(result);
 
 
