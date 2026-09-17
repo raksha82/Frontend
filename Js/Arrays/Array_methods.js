@@ -101,8 +101,16 @@
 
 
 // Filter
-let b=[45,60,72 , 88 ,70,85];
-let result=b.filter(b=>(b % 5 == 0) );
+// let b=[45,60,72 , 88 ,70,85];
+// let result=b.filter(b=>(b % 5 == 0) );
+// console.log(result);
+
+
+// reduce
+let c=[23,45,67];
+let result=c.reduce((sum,value)=>{
+    return sum+value;
+})
 console.log(result);
 
 
