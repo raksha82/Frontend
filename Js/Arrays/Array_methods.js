@@ -85,9 +85,19 @@
 
 
 // reverse
-let marks=[10,20,30,40,50];
-marks.reverse();
-console.log(marks);
+// let marks=[10,20,30,40,50];
+// marks.reverse();
+// console.log(marks);
+
+
+// Map
+let a=[10,20,30,40];
+let result=a.map(a=> 
+    {a=a*2
+    console.log(a);
+    return a;
+    });
+console.log(result);
 
 
 
