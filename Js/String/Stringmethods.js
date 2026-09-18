@@ -26,3 +26,6 @@ console.log(name.lastIndexOf("a")); //5
 
 // includes
 console.log(name.includes("ks")); //true
+
+// /statswith
+console.log(name.startsWith("Rak"));
