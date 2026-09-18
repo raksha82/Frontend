@@ -10,3 +10,6 @@ console.log(name.toUpperCase());
 
 // Lowercase
 console.log(name.toLowerCase());
+
+// CharAt
+console.log(name.charAt(5));
