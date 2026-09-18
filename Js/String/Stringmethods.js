@@ -16,3 +16,6 @@ console.log(name.charAt(5)); //a
 
 // At() Supports negative index
 console.log(name.at(-6)); //R
+
+// indexOf
+console.log(name.indexOf("a"));
