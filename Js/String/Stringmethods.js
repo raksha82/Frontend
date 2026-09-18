@@ -18,4 +18,11 @@ console.log(name.charAt(5)); //a
 console.log(name.at(-6)); //R
 
 // indexOf
-console.log(name.indexOf("a"));
+console.log(name.indexOf("a")); //1
+
+
+// Lastindexof
+console.log(name.lastIndexOf("a")); //5
+
+// includes
+console.log(name.includes("ks")); //true
