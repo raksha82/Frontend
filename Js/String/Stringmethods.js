@@ -29,3 +29,10 @@ console.log(name.includes("ks")); //true
 
 // /statswith
 console.log(name.startsWith("Rak"));
+
+// SLice
+console.log(name.slice(1,-2));
+
+// Substring
+console.log(name.substring(1,-2));
+
