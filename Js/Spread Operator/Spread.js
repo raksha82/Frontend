@@ -26,8 +26,12 @@ let person={
 
 let Student={
     ...person,
-    ...ar1
 }
 
-console.log(person);
-console.log(Student);
+console.log(person); //{ name: 'Raksha', age: 21, location: 'Chennai' }
+console.log(Student); // { name: 'Raksha', age: 21, location: 'Chennai' }
+
+Student.degree="B.E";
+
+console.log(person); // { name: 'Raksha', age: 21, location: 'Chennai' }
+console.log(Student); // { name: 'Raksha', age: 21, location: 'Chennai', degree: 'B.E' }
