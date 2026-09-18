@@ -73,3 +73,12 @@ console.log(schooldata);  /* {
   location: 'TVR',
   student: { total: 500, passed: 450, failed: 50, name: 'Rakshan' }
 } */
+
+
+
+let arr1 =[12,34,55,[77,99]];
+let arr2=structuredClone(arr1);
+console.log(arr1 , arr2);
+
+arr2[3][0]=100;
+console.log(arr1 , arr2);
