@@ -2,14 +2,17 @@
 
 // Length
 let name="Raksha";
-console.log(name.length);
+console.log(name.length); //6
 
 
 // Uppercase
-console.log(name.toUpperCase());
+console.log(name.toUpperCase()); //RAKSHA
 
 // Lowercase
-console.log(name.toLowerCase());
+console.log(name.toLowerCase()); //raksha
 
 // CharAt
-console.log(name.charAt(5));
+console.log(name.charAt(5)); //a
+
+// At() Supports negative index
+console.log(name.at(-6)); //R
