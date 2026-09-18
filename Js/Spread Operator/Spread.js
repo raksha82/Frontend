@@ -15,3 +15,19 @@ console.log(ar1 , ar2); //[ 11, 22, 33, 44 ] [ 11, 22, 33, 44 ]
 
 ar2.push(90);
 console.log(ar1 , ar2);  // [ 11, 22, 33, 44 ] [ 11, 22, 33, 44, 90 ]
+
+
+// Spread Object
+let person={
+    name:"Raksha",
+    age:21,
+    location:"Chennai"
+}
+
+let Student={
+    ...person,
+    ...ar1
+}
+
+console.log(person);
+console.log(Student);
