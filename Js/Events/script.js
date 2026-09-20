@@ -14,5 +14,9 @@ button.addEventListener("click", function() {
     console.log("Second function");
 });
 
+button.addEventListener("mouseover",()=>{
+    console.log(event);
+})
+
 
 
